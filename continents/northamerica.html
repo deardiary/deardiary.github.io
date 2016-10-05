@@ -1,0 +1,15 @@
+---
+layout: page
+title: North America
+permalink: continents/northamerica/
+---
+
+<a class="back-explore back-explore glyphicon glyphicon-chevron-left" href="/explore"></a>
+
+<ul class="continent-country">
+	{% for country in site.northamerica limit:10 %}
+	    <li class="country-list">
+	      {{ country.title }}
+	    </li>
+	{% endfor %}
+</ul>

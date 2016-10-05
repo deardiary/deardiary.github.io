@@ -1,0 +1,21 @@
+---
+layout: page
+title: Europe
+permalink: /continents/europe/
+menu: false
+---
+
+<div class="europe-header">
+	<a class="back-explore glyphicon glyphicon-chevron-left" href="/explore"></a>
+	<h4>Europe </h4>
+</div>
+
+<ul class="continent-country">
+	{% for country in site.europe limit:10 %}
+      <li class="country-list">
+      	<img class="explore-thumbnail" id="{{country.title}}" src="{{site.baseurl}}/assets/{{country.image}}"></img>
+     
+      </li>
+{% endfor %}
+
+</ul>

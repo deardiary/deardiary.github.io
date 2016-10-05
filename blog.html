@@ -1,0 +1,17 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+menu: true
+--- 
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li class='single-post'>
+        <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a></h2>
+
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-excerpt">{{ post.excerpt }} </span><a class="post-end-link" href="{{ post.url | prepend: site.baseurl }}"> Read on...</a>
+      </li>
+    {% endfor %}
+  </ul>

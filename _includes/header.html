@@ -1,0 +1,22 @@
+<header class="site-header">
+
+  <div class="wrapper">
+  
+    <a class="title" href="{{ site.baseurl }}/"><img class="title-icon" src="/assets/deardiarylogo.svg"></a>
+
+    <nav class="site-nav">
+      <div class="trigger">
+        {% for page in site.pages %}
+          {% if page.title %}
+            {% if page.menu %}
+          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
