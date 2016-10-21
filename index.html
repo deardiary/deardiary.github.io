@@ -3,9 +3,28 @@ layout: default
 ---
 
 <div class="home">
-  <img class="home-logo" src="{{ site.baseurl }}/assets/deardiarylogo.svg">{{ site.baseurl }}</img>
-  <p>{{ site.baseUrl }}</p>
+
+	<div class="main-container">
+  		<img class="home-logo" src="{{ site.baseurl }}/assets/deardiarylogo.svg">{{ site.baseurl }}</img>
+  	</div>
+  	<p>{{ site.baseUrl }}</p>
  <!-- <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>-->
 
 
+ 	<div class="row">
+		<h3 class="sub-heading home-posts">Most Recent Posts</h3>
+			  <ul class="post-list col-md-8 col-md-offset-2">
+			    {% for post in site.posts  limit :5%}
+			        <li class='single-post'>
+			            <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a></h2>
+
+			            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+			           <!-- <span class="post-excerpt">{{ post.excerpt }} </span><a class="post-end-link" href="{{ post.url | prepend: site.baseurl }}"> Read on...</a>-->
+			        </li>
+
+			    {% endfor %}
+			  </ul>
+		</div>
 </div>
+
+

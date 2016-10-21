@@ -1,0 +1,53 @@
+.post-clip{
+
+	height:275px;
+	width:350px;
+	border-radius: 3px;
+	padding:0px;
+	box-shadow:0 2px 4px 0 rgba(187,187,187,1);
+	-webkit-box-shadow:0 2px 4px 0 rgba(187,187,187,1);
+	background: #F6F6F6;
+	a{
+		color:white;
+	}
+	.post-link{
+		
+	}
+}
+.post-clip .post-link{
+	font-family:"gotham", helvetica, arial, sans-serif;
+	font-size:16px;
+	color:black;
+	text-decoration: none;
+}
+.post-clip img{
+	width: 100%;
+	height:200px;
+}
+.lastest-post-list,
+.popular-post-list{
+	overflow:auto;
+	padding:20px;
+}
+
+.lastest-posts{
+}
+
+.main-tag{
+	margin-top:15px;
+	margin-bottom: 0px;
+	color:#C4C6C9;
+}
+
+@media screen and (max-width: 1024px) {
+	.explore .post-clip{
+		margin:20px auto;
+		display: block;
+		width:100%;
+	}
+
+}
+
+@media screen and (max-width: 400px) {
+
+}

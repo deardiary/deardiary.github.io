@@ -7,8 +7,51 @@ menu: true
 
 <div class="explore">
 	<div class="explore-title">Explore ! </div>
-	<ul class="explore-continents">
-		<li><a href="{{site.baseUrl}}/continents/europe"><img class="explore-thumbnail" src="{{site.baseurl}}/assets/europe.png"></img></a></li>
-		<li><a href="{{site.baseUrl}}/continents/northamerica"><img class="explore-thumbnail" src="{{site.baseurl}}/assets/northamerica.png"></li>
-	</ul>
+	<div class="row">
+		<ul class="explore-continents col-md-10 col-md-offset-1">
+			<li class="col-md-6 col-xs-12"><a href="{{site.baseUrl}}/continents/europe"><img class="explore-thumbnail" src="{{site.baseurl}}/assets/europe.png"></img></a></li>
+			<li class="col-md-6 col-xs-12"><a href="{{site.baseUrl}}/continents/northamerica"><img class="explore-thumbnail" src="{{site.baseurl}}/assets/northamerica.png"></a></li>
+		</ul>
+	</div>
+
+	<div class="lastest-posts row">
+		<div class="latest">Latest Posts</div>
+		  <ul class="lastest-post-list col-md-10 col-md-offset-1">
+		    {% for post in site.posts limit:2  %}
+		      <li class='latest-single-post col-xs-12 col-md-4'>
+		      	<div class='post-clip'>
+		      		<img src="{{site.baseurl}}/assets/test.jpg"/>
+		      		<p class='main-tag'>{{post.categories[0]}}</p>
+		        	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+		      	</div>
+		      </li>
+		    {% endfor %}
+		  </ul>
+	</div>
+	<div class="popular row">Most Popular Posts</div>
+	  <ul class="popular-post-list col-md-10 col-md-offset-1">
+	    {% for post in site.posts limit:3 %}
+	      <li class='popular-single-post col-xs-12 col-md-4'>
+	      	<div class='post-clip'>
+	      		<img src="{{site.baseurl}}/assets/test.jpg"/>
+	      		<p class='main-tag'>{{post.categories[0]}}</p>
+	        	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+	     	</div>
+	      </li>
+	    {% endfor %}
+	  </ul>
+		<div class="row">
+		   <p class="popular col-md-12">Top Travel Posts</p>
+			  <ul class="popular-post-list col-md-10 col-md-offset-1">
+			    {% for post in site.categories.travel limit:3 %}
+			      <li class='popular-travel-post col-xs-12 col-md-4'>
+			      	<div class='post-clip'>
+			      		<img src="{{site.baseurl}}/assets/test.jpg"/>
+			      		<p class='main-tag'>{{post.categories[0]}}</p>
+			        	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+			      	</div>
+			      </li>
+			    {% endfor %}
+			  </ul>
+		</div>
 </div>

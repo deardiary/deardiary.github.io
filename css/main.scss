@@ -27,6 +27,13 @@ $on-palm:          600px;
 $on-laptop:        800px;
 
 
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
 // Font variables
 $font-name: "watermelon";
 $font-path-file-name: {{ baseurl }}/assets/fonts/watermelon/watermelon;
@@ -41,7 +48,6 @@ $font-path-file-name: {{ baseurl }}/assets/fonts/watermelon/watermelon;
        url($font-path-file-name+'.ttf')  format('truetype'), /* Safari, Android, iOS */
        url($font-path-file-name+'.svg#font_name') format('svg'); /* Legacy iOS */
 }
-
 
 
 // Import partials from the `minima` theme.

@@ -14,20 +14,36 @@ ul,li{
 .explore{
 	.explore-continents{
 		li{
-			width:35%;
-			margin-left: 8%;
+			/*width:35%;*/
+			/*margin-left: 8%;*/
 			margin-top: 10px;
 			float: left;
+			img{	
+				max-width: 400px;
+			}
 		}
 		overflow: auto;
-		width:70%;
-		margin: 0 auto;		
+		/*width:70%;*/
+		/*margin: 0 auto;	*/	
 	}
 	.explore-title{
 		text-align: center;
 		font-size: 70px;
 		margin-bottom:75px;
-		font-family: cookie;
+		font-family: watermelon;
+		margin-top:45px;
+	}
+	.popular,
+	.latest{
+		text-align: center;
+		font-size: 60px;
+		font-family: watermelon;
+		margin-top:100px;
+		margin-bottom:50px;
+	}
+	.popular-single-post.post-clip{
+		padding-left:0px;
+		padding-right:0px;
 	}
 }
 .continent-country{
@@ -65,14 +81,13 @@ ul,li{
 .site-nav .page-link{
 	font-size: 17px;
 	padding:0 10px;
-	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight: 300;
 }
 .title-icon{
 	width:50px;
 }
 a.site-title{
-	font-family: 'Cookie';
+	font-family: watermelon;
 	font-size: 170px;
 	margin: 50px 0 20px 0;
 	text-decoration: none;
@@ -96,7 +111,7 @@ a.title{
  .country-list{
  	width:29%;
  	float: left;
- 	margin:10px 20px;
+ 	/*margin:10px 20px;*/
  }
 
  .continent-country{
@@ -113,9 +128,12 @@ a.title{
  	border-top:none;
  }
  /* Blog posts page */
+ h1.blog-list-title{
+ 	margin-top: 40px;
+ 	font-family: watermelon;
+ 	font-size:45px;
+ }
  .post-list{
- 	width:70%;
- 	margin: 50px auto 0 auto;
  	font-family:gotham, helvetica, arial, sans-serif;
  	text-align: left;
  	p{
@@ -129,39 +147,103 @@ a.title{
 	.post-link:visited,
  	.post-link:hover{
  		text-decoration: none;
- 		color:rgba(45, 190, 96, 0.7);
+ 		/*color:rgba(45, 190, 96, 0.7);*/
+ 		color:#b21c0e;
  	}
  	.post-link{
 		font-family:"gotham", helvetica, arial, sans-serif;
 		font-weight: 400;
-		color:rgba(45, 190, 96, 0.7);
+		color:#b21c0e;
+		/*color:rgba(45, 190, 96, 0.7);*/
 		font-size:30px;
 		text-align: left;
+		@media screen and (max-width: 599px) {
+			font-size: 20px;
+			text-align: center;
+		}
+
 	}
 	.single-post{
 		border-bottom:2px solid #F7F7F7;
 		padding-bottom: 25px;
 		margin-top: 65px;
 		text-align: left;
+		@media screen and (max-width: 1024px) {
+			margin-left:20px;
+			text-align: center;
+		}
 	}
  }
 
+/* Individual post page*/
 
-body{
-	font-family:"gotham", helvetica, arial, sans-serif;
+.post-content p{
+	/*text-align: justify;*/
 }
-.home-logo{
-	margin:0 auto;
-	display: block;
-	margin-top:50px;
+.post-content{
+	font-family:"gotham",gotham;
+	font-size:15px;
+	 @media screen and (max-width: 1024px) {
+	 	padding:10px;
+	 	font-size: 14px;
+	 	margin-left:20px;
+	 }
+	.post-opening{
+
+		font-family: 'watermelon';
+		font-size: 40px;
+		margin-bottom:30px;
+		margin-left:-140px; /* hacky way to avaoid re-griding post layout */
+		@media screen and (max-width: 1024px) {
+			margin-left:0;
+			font-size: 30px;
+		}
+	}
+	.post-closing{
+		font-family: 'watermelon';
+		font-size: 40px;
+		margin-left: 85%;
+		margin-top:20px;
+		@media screen and (max-width: 1024px) {
+			font-size: 30px;
+		}
+		@media screen and (max-width: 599px) {
+			margin-left:0;
+		}
+	}
 }
+
+
+/* End of indivudal post page*/ 
+
+/* Homepage */
+.home{
+	.home-logo{
+		margin:0 auto;
+		display: block;
+		margin-top:50px;
+	}
+	 .home-posts{
+	 }
+	 .main-container{
+	 	min-height:100vh;
+	 	margin-top: 10px;
+	 }
+}
+/*End of home page*/
+
+/* General*/
  a:visited,
  a:hover,
  a:focus{
  	color:black;
  }
+ .image-gallery{
+ 	img{
+ 		margin-top: 30px;
+ 	}
+ }
 .europe-header{
-	font-family: cookie;
 
 	margin: 30px auto 60px auto;
 	width:80%;
@@ -177,6 +259,7 @@ body{
 		width:100px;
 		margin:0 auto;
 		font-size:75px;
+		font-family: watermelon;
 	}
 }
 
@@ -188,16 +271,65 @@ body{
 	margin-top: 50px;
 
 	.social-icons{
-		margin-top:20px;
+		margin:30px 0 10px 0;
 		width:225px;
 		float: right;
 		img{
-			margin-left:15px;
+			margin-left:20px;
 			margin-bottom: 20px;
 		}
 	}
 	.social-icon{
- 		width: 35px;
- 		height:35px;
+ 		width: 45px;
+ 		height:45px;
  	}
 }
+
+/* Individual Country Styling*/
+
+
+ul.country-stats-container{
+	width:755px;
+	overflow: auto;
+	margin:0 auto;
+	@media screen and (max-width: 755px) {
+		width:100%;
+	}
+	li{
+		width:250px;
+		float:left;
+		@media screen and (max-width: 755px) {
+			width:100%;
+			margin-top:15px;
+		}
+	}
+}
+.country-header{
+	position: relative;
+	margin-top: 40px;
+   .back-explore{
+		position: absolute;
+		top:0;
+	}
+	.country-heading{
+		margin-bottom:60px;
+		font-size: 70px;
+		font-family:watermelon;
+		@media screen and (max-width: 599px) {
+			font-size: 50px;
+			margin-bottom: 30px;
+		}
+	}
+}
+.country-post-list{
+	margin-top:70px;
+}
+
+/* Reuseable */
+.sub-heading{
+	font-size: 50px;
+	font-family:watermelon;
+	margin:80px 0 40px 0;
+}
+
+
