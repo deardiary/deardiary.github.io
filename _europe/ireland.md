@@ -2,7 +2,7 @@
 layout: default
 title: ireland
 permalink: /ireland/
-image: ireland.png
+image: ireland.svg
 ---
 
 <div class="row">

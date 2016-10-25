@@ -25,6 +25,9 @@ relative_permalinks: false
 # Build settings
 markdown: kramdown
 theme: minima
+paginate_path: "/blog/page:num/"
+paginate: 2
+gems: [jekyll-paginate]
 collections:
   europe:
      output: true

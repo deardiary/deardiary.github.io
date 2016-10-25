@@ -133,6 +133,26 @@ a.title{
  	font-family: watermelon;
  	font-size:45px;
  }
+ .pag{
+ 	.page_number{
+ 		text-align: center;
+ 		font-size: 18px;
+ 		color:#b21c0e;
+ 		padding-top:5px;
+ 	}
+ 	.previous{
+ 		text-align: left;
+ 		font-size:25px;
+ 	}
+ 	.next{
+ 		text-align: right;
+ 		font-size:25px;
+ 	}
+ 	a,a:hover{
+ 		text-decoration: none;
+ 		color:black;
+ 	}
+ }
  .post-list{
  	font-family:gotham, helvetica, arial, sans-serif;
  	text-align: left;

@@ -2,7 +2,7 @@
 layout: default
 title: france
 permalink: /france/
-image: france.png
+image: france.svg
 ---
 
 <div class="row">

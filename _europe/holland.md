@@ -2,17 +2,22 @@
 layout: default
 title: holland
 permalink: /holland/
-image: holland.png
+image: holland.svg
 ---
 
 <div class="row">
 	<div class="country-header">
 		<a class="back-explore glyphicon glyphicon-chevron-left" href="{{site.baseurl}}/continents/europe/"></a>
+		<h3 class="country-heading">Holland</h3>
 	</div>
 </div>
 
 <div class="row">
-	<h3 class="country-heading">Holland</h3>
+	<ul class="country-stats-container">
+		<li class=""><img class="" src="{{site.baseurl}}/assets/countries/hollandpop.svg"/></li>
+		<li class=""><img class="" src="{{site.baseurl}}/assets/countries/hollandcap.svg"/></li>
+		<li class=""><img class="" src="{{site.baseurl}}/assets/countries/hollandflag.svg"/></li>
+	</ul>
 	<ul class="post-list col-md-8 col-md-offset-2">
 		{% for post in site.categories.holland limit:10 %}
 			<li class='single-post'>

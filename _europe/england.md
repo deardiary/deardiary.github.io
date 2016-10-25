@@ -2,7 +2,7 @@
 layout: page
 title: england
 permalink: /england/
-image: england.png
+image: england.svg
 ---
 <div class="row">
 	<div class="country-header">

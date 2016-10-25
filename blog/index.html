@@ -1,0 +1,35 @@
+---
+layout: page
+title: Blog
+--- 
+	<h1 class="blog-list-title">Articles</h1>
+    <div class="row">
+      <ul class="post-list col-md-8 col-md-offset-2 col-xs-12">
+        {% for post in paginator.posts %}
+          <li class='single-post'>
+            <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a></h2>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <span class="post-excerpt">{{ post.excerpt }} </span><a class="post-end-link" href="{{ post.url | prepend: site.baseurl }}"> Read on...</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+
+<!-- Pagination links -->
+<div class="row">
+  <div class="pag col-md-8 col-md-offset-2">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous col-md-2"><span class="glyphicon glyphicon-arrow-left"></span></a>
+     {% else %}
+      <span class='col-md-2'></span>
+    {% endif %}
+    <div class="page_number col-md-8"> {{ paginator.page }} / {{ paginator.total_pages }}</div>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next col-md-2"><span class="glyphicon glyphicon-arrow-right"></span></a>
+    {% else %}
+      <span class='col-md-2'></span>
+    {% endif %}
+
+  </div>
+</div>

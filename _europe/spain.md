@@ -2,7 +2,7 @@
 layout: default
 title: spain
 permalink: /spain/
-image: spain.png
+image: spain.svg
 ---
 <div class="row">
 	<div class="country-header">
