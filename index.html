@@ -13,7 +13,17 @@ layout: default
 
 
  	<div class="row">
-		<h3 class="sub-heading home-posts">Most Recent Posts</h3>
+ 		<div class="home-grid col-md-10 col-md-offset-1">
+ 			<img class="home-grid-pic col-md-4" src="{{ site.baseurl }}/assets/homepic1.jpg"></img>
+ 			<img class="home-grid-pic col-md-4" src="{{ site.baseurl }}/assets/homepic2.jpg"></img>
+ 			<img class="home-grid-pic col-md-4" src="{{ site.baseurl }}/assets/homepic3.jpg"></img>
+ 			<img class="home-grid-pic second-row col-md-4" src="{{ site.baseurl }}/assets/homepic4.jpg"></img>
+ 			<img class="home-grid-pic second-row col-md-4" src="{{ site.baseurl }}/assets/homepic5.jpg"></img>
+ 			<img class="home-grid-pic second-row col-md-4" src="{{ site.baseurl }}/assets/homepic6.jpg"></img>
+ 		</div>
+ 	</div>
+ 	<div class="row">
+		<h3 class="col-md-12 sub-heading home-posts">Most Recent Posts</h3>
 			  <ul class="post-list col-md-8 col-md-offset-2">
 			    {% for post in site.posts  limit :5%}
 			        <li class='single-post'>

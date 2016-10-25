@@ -136,6 +136,7 @@ a.title{
  	margin-top: 40px;
  	font-family: watermelon;
  	font-size:45px;
+ 	margin-bottom: 40px;
  }
  .pag{
  	.page_number{
@@ -194,6 +195,11 @@ a.title{
 		@media screen and (max-width: 1024px) {
 			margin-left:20px;
 			text-align: center;
+		}
+		p{
+			@media screen and (max-width: 1024px) {
+				text-align: justify;
+			}
 		}
 	}
  }
@@ -264,6 +270,11 @@ a.title{
 	 		margin-top: 60px;
 	 		font-family: skinny;
 	 		font-size: 70px;
+	 	}
+	 }
+	 .home-grid{
+		.second-row{
+			margin-top:30px;
 	 	}
 	 }
 }
@@ -360,6 +371,29 @@ ul.country-stats-container{
 }
 .country-post-list{
 }
+/*Lists */
+.list-page{
+	.page-title{
+		text-align: center;
+		font-family: skinny;
+		font-size: 60px;
+	}
+	.post-opening{
+			font-family: 'watermelon';
+			font-size: 40px;
+			margin-bottom:30px;
+			margin-left:-140px; /* hacky way to avaoid re-griding post layout */
+			@media screen and (max-width: 1024px) {
+				margin-left:20px;
+				font-size: 30px;
+			}
+			@media screen and (max-width: 599px) {
+				font-size: 18px;
+			}
+	}
+}
+/*End of lists*/
+
 
 /* Reuseable */
 .sub-heading{
@@ -373,13 +407,16 @@ ul.country-stats-container{
 }
 
 .blog-navigation{
-	span.span:hover{
+	span,span:hover{
 		color:black;
 		text-decoration: none;
 	}
-
 	font-size:30px;
 	margin-bottom:160px;
+	margin-top: 50px;
+	.next{
+		text-align:right;
+	}
 }
 
 
