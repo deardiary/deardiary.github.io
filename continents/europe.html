@@ -20,8 +20,31 @@ menu: false
 </ul>
 
 	<div class="row">
+		<div class="col-md-6 col-xs-12">
 		<h3 class="sub-heading">Top Posts in Europe</h3>
-			  <ul class="post-list col-md-8 col-md-offset-2">
+			  <ul class="post-list col-md-10 col-md-offset-1">
+
+				        <li class='single-post'>
+				            <h2><a class="post-link" href="{{ site.categories.europe[1].url | prepend: site.baseurl }}">{{ site.categories.europe[1].title | escape }}</a></h2>
+				            <span class="post-meta">{{ site.categories.europe[1].date | date: "%b %-d, %Y" }}</span>
+				            <span class="post-excerpt">{{ site.categories.europe[1].excerpt }} </span><a class="post-end-link" href="{{ site.categories.europe[1].url | prepend: site.baseurl }}"> Read on...</a>
+				        </li>
+				        <li class='single-post'>
+				            <h2><a class="post-link" href="{{ site.categories.europe[3].url | prepend: site.baseurl }}">{{ site.categories.europe[3].title | escape }}</a></h2>
+				            <span class="post-meta">{{ site.categories.europe[3].date | date: "%b %-d, %Y" }}</span>
+				            <span class="post-excerpt">{{ site.categories.europe[3].excerpt }} </span><a class="post-end-link" href="{{ site.categories.europe[3].url | prepend: site.baseurl }}"> Read on...</a>
+				        </li>
+				        <li class='single-post'>
+				            <h2><a class="post-link" href="{{ site.categories.europe[2].url | prepend: site.baseurl }}">{{ site.categories.europe[2].title | escape }}</a></h2>
+				            <span class="post-meta">{{ site.categories.europe[2].date | date: "%b %-d, %Y" }}</span>
+				            <span class="post-excerpt">{{ site.categories.europe[2].excerpt }} </span><a class="post-end-link" href="{{ site.categories.europe[2].url | prepend: site.baseurl }}"> Read on...</a>
+				        </li>
+			  </ul>
+			</div>
+
+		<div class="col-md-6 col-xs-12">
+		<h3 class="sub-heading">Most Recent</h3>
+			  <ul class="post-list col-md-10 col-md-offset-1">
 			    {% for post in site.categories.europe limit:3 %}
 			        <li class='single-post'>
 			            <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a></h2>
@@ -32,4 +55,5 @@ menu: false
 
 			    {% endfor %}
 			  </ul>
-		</div>
+			</div>
+	</div>

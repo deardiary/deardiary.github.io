@@ -21,6 +21,7 @@ image: france.svg
 		<li class=""><img class="" src="{{site.baseurl}}/assets/countries/francecap.svg"/></li>
 		<li class=""><img class="" src="{{site.baseurl}}/assets/countries/franceflag.svg"/></li>
 	</ul>
+	<p class="explanation-text">Posts</p>
 	<ul class="post-list country-post-list col-md-8 col-md-offset-2">
 		{% for post in site.categories.france limit:10 %}
 			<li class='single-post'>

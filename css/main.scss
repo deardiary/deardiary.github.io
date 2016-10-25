@@ -1,38 +1,48 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Main sass file
 ---
 @charset "utf-8";
+
+
 
 // Our variables
 $base-font-family: gotham, helvetica, arial, sans-serif;
 $base-font-size:   16px;
-$base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$text-color:       #111;  //black
+$background-color: #fdfdfd; //white
+$brand-color:       #2a7ae2;; //blue
+$main-red:   rgba(220, 0, 0, 0.65);
 
-$grey-color:       #828282;
+$grey-color:       #828282; //grey
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-// Width of the content area
+// Width of the ƒcontent area
 $content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
+$on-mini:      200px; 
 
 
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
     }
 }
-
 
 // Font variables
 $font-name: "watermelon";
@@ -42,13 +52,10 @@ $font-path-file-name: {{ baseurl }}/assets/fonts/watermelon/watermelon;
 @font-face {
   font-family: $font-name;
   src: url($font-path-file-name+'.eot'); /* IE9 Compat Modes */
-  src: url($font-path-file-name+'.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url($font-path-file-name+'.woff2') format('woff2'), /* Super Modern Browsers */
-       url($font-path-file-name+'.woff') format('woff'), /* Pretty Modern Browsers */
-       url($font-path-file-name+'.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url($font-path-file-name+'.svg#font_name') format('svg'); /* Legacy iOS */
+  src: url($font-path-file-name+'.eot?#iefix') format('embedded-opentype'),
+      url($font-path-file-name+'.ttf')  format('truetype'), /* Safari, Android, iOS */
+      url($font-path-file-name+'.svg#font_name') format('svg'); /* Legacy iOS */
 }
 
-
-// Import partials from the `minima` theme.
+// Import partials from `sass_dir` (defaults to `_sass`)
 @import "minima";

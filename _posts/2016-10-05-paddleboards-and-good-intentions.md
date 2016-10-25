@@ -4,6 +4,7 @@ title:  "Paddleboarding and good intentions"
 date:   2016-10-5 10:11:34
 tags: travel
 categories: travel spain javea sport europe
+comments: true
 ---
 
 
