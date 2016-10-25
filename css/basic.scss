@@ -445,6 +445,19 @@ ul.country-stats-container{
 				font-size: 18px;
 			}
 	}
+	.list-card{
+		font-family: skinny;
+		font-size:30px;
+		border:3px solid #F7F7F7;
+		padding:20px 0;
+		border-radius:3px;
+		box-shadow:0 2px 4px 0 rgba(187,187,187,1);
+	-webkit-box-shadow:0 2px 4px 0 rgba(187,187,187,1);
+		background: #F6F6F6;
+		@media screen and (max-width: 799px) {
+			margin-top:20px;
+		}
+	}
 }
 /*End of lists*/
 

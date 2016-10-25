@@ -33,3 +33,5 @@ collections:
      output: true
   northamerica:
      output: true
+  lists:
+     output: true

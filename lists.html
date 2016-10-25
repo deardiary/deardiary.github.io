@@ -5,9 +5,16 @@ permalink: /lists/
 menu: true
 ---
 <div class="list-page row">
-	<div class="page-title">Lists</div>
+	<div class="col-xs-10 col-xs-offset-1 page-title">Lists</div>
 	<div class="col-md-8 col-md-offset-2 col-xs-12">
 		<div class="post-opening">Dear Diary,</div>
 		<p>My love of lists is excessive, time consuming and wonderful. I thought I'd share a few of my favourites.</p>
 	</div>
+	<ul class="list-posts col-md-10 col-md-offset-1">
+	{% for list in site.lists limit:10 %}
+      <li class="country-list list-card col-xs-10 col-xs-offset-1 col-md-6">
+      	<a href="{{site.baseurl}}/{{list.title}}"class="">{{list.title}}</a>
+      </li>
+	{% endfor %}
+	</ul>
 </div>
