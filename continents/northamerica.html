@@ -4,12 +4,57 @@ title: North America
 permalink: continents/northamerica/
 ---
 
-<a class="back-explore back-explore glyphicon glyphicon-chevron-left" href="/explore"></a>
+<div class="na-header">
+	<a class="back-explore glyphicon glyphicon-chevron-left" href="/explore"></a>
+	<h4 class="na-title"> North America </h4>
+</div>
 
-<ul class="continent-country">
-	{% for country in site.northamerica limit:10 %}
-	    <li class="country-list">
-	      {{ country.title }}
-	    </li>
-	{% endfor %}
-</ul>
+<div class="row">
+	<ul class="continent-country col-md-10 col-md-offset-1">
+		{% for country in site.northamerica limit:10 %}
+		    <li class="col-md-4 col-md-offset-4 country-list">
+		      	<a href="{{country.permalink}}"class=""><img class="explore-thumbnail" id="{{country.title}}" src="{{site.baseurl}}/assets/{{country.image}}"></img></a>
+		    </li>
+		{% endfor %}
+	</ul>
+</div>
+
+<div class="row">
+		<div class="col-md-6 col-xs-12">
+		<h3 class="sub-heading">Top Posts in North America</h3>
+			  <ul class="post-list col-md-10 col-md-offset-1">
+
+				        <li class='single-post'>
+				            <h2><a class="post-link" href="{{ site.categories.northamerica[1].url | prepend: site.baseurl }}">{{ site.categories.northamerica[1].title | escape }}</a></h2>
+				            <span class="post-meta">{{ site.categories.northamerica[1].date | date: "%b %-d, %Y" }}</span>
+				            <span class="post-excerpt">{{ site.categories.northamerica[1].excerpt }} </span><a class="post-end-link" href="{{ site.categories.northamerica[1].url | prepend: site.baseurl }}"> Read on...</a>
+				        </li>
+				        <li class='single-post'>
+				            <h2><a class="post-link" href="{{ site.categories.northamerica[3].url | prepend: site.baseurl }}">{{ site.categories.northamerica[3].title | escape }}</a></h2>
+				            <span class="post-meta">{{ site.categories.northamerica[3].date | date: "%b %-d, %Y" }}</span>
+				            <span class="post-excerpt">{{ site.categories.northamerica[3].excerpt }} </span><a class="post-end-link" href="{{ site.categories.northamerica[3].url | prepend: site.baseurl }}"> Read on...</a>
+				        </li>
+				        <li class='single-post'>
+				            <h2><a class="post-link" href="{{ site.categories.northamerica[2].url | prepend: site.baseurl }}">{{ site.categories.northamerica[2].title | escape }}</a></h2>
+				            <span class="post-meta">{{ site.categories.northamerica[2].date | date: "%b %-d, %Y" }}</span>
+				            <span class="post-excerpt">{{ site.categories.northamerica[2].excerpt }} </span><a class="post-end-link" href="{{ site.categories.northamerica[2].url | prepend: site.baseurl }}"> Read on...</a>
+				        </li>
+			  </ul>
+			</div>
+
+		<div class="col-md-6 col-xs-12">
+		<h3 class="sub-heading"> Recent NORTH AMERICA Posts</h3>
+			  <ul class="post-list col-md-10 col-md-offset-1">
+			    {% for post in site.categories.northamerica limit:3 %}
+			        <li class='single-post'>
+			            <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a></h2>
+
+			            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+			            <span class="post-excerpt">{{ post.excerpt }} </span><a class="post-end-link" href="{{ post.url | prepend: site.baseurl }}"> Read on...</a>
+			        </li>
+
+			    {% endfor %}
+			  </ul>
+			</div>
+	</div>
+
