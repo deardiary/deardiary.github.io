@@ -30,7 +30,7 @@ ul,li{
 		text-align: center;
 		font-size: 90px;
 		margin-bottom:75px;
-		font-family: skinny;
+		font-family: skinny,gotham, helvetica, arial, sans-serif;
 		margin-top:45px;
 		img{
 			width:400px;
@@ -41,7 +41,7 @@ ul,li{
 	.latest{
 		text-align: center;
 		font-size: 60px;
-		font-family: skinny;
+		font-family: skinny,gotham, helvetica, arial, sans-serif;
 		margin-top:100px;
 		margin-bottom:50px;
 	}
@@ -211,7 +211,7 @@ a.title{
  	}
  }
  .post-list{
- 	font-family:gotham, helvetica, arial, sans-serif;
+ 	font-family:skinny,gotham, helvetica, arial, sans-serif;
  	text-align: left;
  	p{
  		text-align: left;
@@ -246,7 +246,7 @@ a.title{
 		text-align: left;
 		@media screen and (max-width: 1024px) {
 			margin-left:20px;
-			text-align: center;
+			/*text-align: center;*/
 		}
 		p{
 			@media screen and (max-width: 1024px) {
@@ -259,7 +259,7 @@ a.title{
  .post-header{
  	.post-title{
  		color:#b21c0e;
- 		font-family: "skinny";
+ 		font-family: skinny,gotham, helvetica, arial, sans-serif;
  		font-size: 50px;
  	}
 		
@@ -320,7 +320,7 @@ a.title{
 	 	margin-top: 10px;
 	 	.main-blurb{
 	 		margin-top: 60px;
-	 		font-family: skinny;
+	 		font-family: skinny,gotham, helvetica, arial, sans-serif;
 	 		font-size: 70px;
 	 	}
 	 }
@@ -439,7 +439,7 @@ ul.country-stats-container{
 	font-family: gotham;
 	.page-title{
 		text-align: center;
-		font-family: skinny;
+		font-family: skinny,gotham, helvetica, arial, sans-serif;
 		font-size: 60px;
 	}
 	.post-opening{
@@ -457,9 +457,9 @@ ul.country-stats-container{
 	}
 	.list-card{
 		a{
-			color:#b21c0e;
+			color:b21c0eZ;
 		}
-		font-family: skinny;
+		font-family: skinny,gotham, helvetica, arial, sans-serif;
 		font-size:30px;
 		border:3px solid #F7F7F7;
 		padding:25px 0 17px 0;
@@ -492,7 +492,7 @@ ul.country-stats-container{
 			border-radius:4px;
 			min-height:80px;
 			margin-bottom: 40px;
-			font-family: skinny;
+			font-family: skinny,gotham, helvetica, arial, sans-serif;
 			font-size:35px;
 			text-align: left;
 			padding-top:20px;
@@ -515,7 +515,7 @@ ul.country-stats-container{
 }
 	.list-heading{
 		font-size: 70px;
-		font-family: skinny,gotham;
+		font-family: skinny,gotham, helvetica, arial, sans-serif;
 		color:#b21c0e;
 	}
 /*End of lists*/
@@ -524,11 +524,11 @@ ul.country-stats-container{
 /* Reuseable */
 .sub-heading{
 	font-size: 75px;
-	font-family:skinny;
+	font-family:skinny,gotham, helvetica, arial, sans-serif;
 	margin:80px 0 40px 0;
 }
 .explanation-text{
-	font-family: skinny;
+	font-family: skinny,gotham, helvetica, arial, sans-serif;
 	font-size: 80px;
 }
 
