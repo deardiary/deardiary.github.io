@@ -1,6 +1,6 @@
 ---
 layout: default
-title: idmb movies I'v watched
+title: IMBD movies I've watched
 permalink: /movies/
 ---
 <div class="row individual-list">

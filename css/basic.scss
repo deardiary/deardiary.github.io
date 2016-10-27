@@ -436,6 +436,7 @@ ul.country-stats-container{
 }
 /*Lists */
 .list-page{
+	font-family: gotham;
 	.page-title{
 		text-align: center;
 		font-family: skinny;
@@ -463,6 +464,7 @@ ul.country-stats-container{
 		box-shadow:0 2px 4px 0 rgba(187,187,187,1);
 	    -webkit-box-shadow:0 2px 4px 0 rgba(187,187,187,1);
 		background: #F6F6F6;
+		margin-top:20px;
 		@media screen and (max-width: 799px) {
 			margin-top:20px;
 		}
@@ -473,8 +475,15 @@ ul.country-stats-container{
 		font-family: gotham;
 	}
 	.listing-list{
-		margin-top:60px;
+		margin-top:40px;
 		li{
+			.mini{
+				font-size:18px;
+				display: block;
+				width:20px;
+				float:left;
+				margin-top:12px;
+			}
 			background-color:#F7F7F7;
 			border-radius:4px;
 			min-height:80px;
