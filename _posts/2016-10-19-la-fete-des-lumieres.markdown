@@ -5,6 +5,7 @@ date:   2016-10-19 09:54:21
 tags: travel
 categories: lyon france europe festival travel europe erasmus 
 comments: true
+thumbnail: fete.jpg
 ---
 
 

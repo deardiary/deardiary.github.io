@@ -45,6 +45,10 @@ ul,li{
 		margin-top:100px;
 		margin-bottom:50px;
 	}
+	.post-clip{
+		display: block;
+		margin:0 auto;
+	}
 	.popular-single-post.post-clip{
 		padding-left:0px;
 		padding-right:0px;
@@ -457,13 +461,39 @@ ul.country-stats-container{
 		padding:20px 0;
 		border-radius:3px;
 		box-shadow:0 2px 4px 0 rgba(187,187,187,1);
-	-webkit-box-shadow:0 2px 4px 0 rgba(187,187,187,1);
+	    -webkit-box-shadow:0 2px 4px 0 rgba(187,187,187,1);
 		background: #F6F6F6;
 		@media screen and (max-width: 799px) {
 			margin-top:20px;
 		}
 	}
 }
+.listing-list{
+	margin-top:60px;
+	li{
+		background-color:#F7F7F7;
+		border-radius:4px;
+		min-height:80px;
+		margin-bottom: 40px;
+		font-family: skinny;
+		font-size:35px;
+		text-align: left;
+		padding-top:20px;
+		padding-left:20px;
+		.list-item-title{
+			margin-left:20px;
+		}
+		.list-year{
+			margin-left: 35px;
+			color:#b21c0e;
+		}
+	}
+}
+	.list-heading{
+		font-size: 70px;
+		font-family: skinny,gotham;
+		color:#b21c0e;
+	}
 /*End of lists*/
 
 

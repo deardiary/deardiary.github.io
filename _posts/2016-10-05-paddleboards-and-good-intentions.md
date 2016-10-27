@@ -5,6 +5,7 @@ date:   2016-10-5 10:11:34
 tags: travel
 categories: travel spain javea sport europe
 comments: true
+thumbnail: paddle.jpeg
 ---
 
 
