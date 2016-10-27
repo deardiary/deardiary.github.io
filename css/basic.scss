@@ -468,27 +468,35 @@ ul.country-stats-container{
 		}
 	}
 }
-.listing-list{
-	margin-top:60px;
-	li{
-		background-color:#F7F7F7;
-		border-radius:4px;
-		min-height:80px;
-		margin-bottom: 40px;
-		font-family: skinny;
-		font-size:35px;
-		text-align: left;
-		padding-top:20px;
-		padding-left:20px;
-		max-width: 550px;
-		margin:0 auto 40px auto;
-		display: block;
-		.list-item-title{
-			margin-left:20px;
-		}
-		.list-year{
-			margin-left: 35px;
-			color:#b21c0e;
+.individual-list{
+	p{
+		font-family: gotham;
+	}
+	.listing-list{
+		margin-top:60px;
+		li{
+			background-color:#F7F7F7;
+			border-radius:4px;
+			min-height:80px;
+			margin-bottom: 40px;
+			font-family: skinny;
+			font-size:35px;
+			text-align: left;
+			padding-top:20px;
+			padding-left:20px;
+			max-width: 550px;
+			margin:0 auto 40px auto;
+			display: block;
+			.list-item-title{
+				margin-left:20px;
+			}
+			.out{
+				text-decoration: line-through;
+			}
+			.list-year{
+				margin-left: 35px;
+				color:#b21c0e;
+			}
 		}
 	}
 }
