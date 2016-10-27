@@ -69,40 +69,47 @@ permalink: /movies/
 		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">High Noon</span><span class="list-year">1952</span></li>
 		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">Dances with Wolves</span><span class="list-year">1990</span></li>
 		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">Jurassic Park</span><span class="list-year">1993</span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
-		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title"></span><span class="list-year"></span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">The Pianist</span><span class="list-year">2002</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">The Exorcist</span><span class="list-year">1973</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">Goodfellas</span><span class="list-year">1990</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">The Deer Hunter</span><span class="list-year">1978</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">All Quiet on the Western Front</span><span class="list-year">1930</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">Bonnie and Clyde</span><span class="list-year">1967</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">The French Connection</span><span class="list-year">1971</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">City Lights</span><span class="list-year">1931</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">It Happened One Night</span><span class="list-year">1934</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">A Place in the Sun</span><span class="list-year">1951</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">Midnight Cowboy</span><span class="list-year">1969</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">Mr. Smith Goes to Washington</span><span class="list-year">1939</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">Rain Man</span><span class="list-year">1988</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">Annie Hall</span><span class="list-year">1977</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">Tootsie</span><span class="list-year">1982</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">Fargo</span><span class="list-year">1996</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">Giant</span><span class="list-year">1956</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">The Grapes of Wrath</span><span class="list-year">1940</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">Shane</span><span class="list-year">1953</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">The Green Mile</span><span class="list-year">1999</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">Close Encounters of the Third Kind</span><span class="list-year">1977</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">Nashville</span><span class="list-year">1975</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">Network</span><span class="list-year">1976</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">The Graduate</span><span class="list-year">1967</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">American Graffiti</span><span class="list-year">1973</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">Good Will Hunting</span><span class="list-year">1997</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">Terms of Endearment</span><span class="list-year">1983</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">Pulp Fiction</span><span class="list-year">1994</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">The African Queen</span><span class="list-year">1951</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">Stagecoach</span><span class="list-year">1939</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">Mutiny on the Bounty</span><span class="list-year">1935</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">The Great Dictator</span><span class="list-year">1940</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">The Maltese Falcon</span><span class="list-year">1941</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">Wuthering Heights</span><span class="list-year">1939</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">Double Indemnity</span><span class="list-year">1944</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">Taxi Driver</span><span class="list-year">1976</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">Rebel Without a Cause</span><span class="list-year">1955</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">Rear Window</span><span class="list-year">1954</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">The Third Man</span><span class="list-year">1949</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">North by Northwest</span><span class="list-year">1959</span></li>
+		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">Yankee Doodle Dandy</span><span class="list-year">1942</span></li>
 
 
 
