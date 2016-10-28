@@ -26,7 +26,7 @@ After we had all met up, we had dinner in Vieux Lyon. Lyon is known for its good
 			<img class=" col-md-12 gallery-5" src="{{baseurl}}/assets/fete6.jpg"/>
 		</div>
 		<div class="col-md-7">
-			<img class="gallery-3" src="{{baseurl}}/assets/fete2.jpg"/>
+			<img class="gallery-3" alt="float in the parade" src="{{baseurl}}/assets/fete2.jpg"/>
 			<img class="gallery-4" src="{{baseurl}}/assets/fete4.jpg"/>
 		</div>
 	</div>
@@ -48,7 +48,7 @@ The city had also opened the public transportation system for parts of the event
 
 We spent the rest of the weekend visiting the many attractions and installments dotted around the city. We didn't get them all but we were close. We visited the christmas market and ate too much. We visited Croix-Rouge and ate too much. The weekend ended and our friends left, the lights were taken down. Normality beckoned as my returned to lessons on Monday.
 
-I tell all of my english speaking friends that the festival is a must-see but they rarely listen as they've never heard of it. It remains one of my best memories of my time in France and the first and only time I have ever had to queue for a metro station.
+I tell all of my english speaking friends that the festival is a must-see but they rarely listen as they've never heard of it. It remains one of my best memories of my time in France as well as the first and only time I have ever had to queue for a metro station.
 
 
 

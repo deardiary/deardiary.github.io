@@ -8,7 +8,7 @@ permalink: /favourites/
 		<h3 class="list-heading">These are a few of my favourite things</h3>
 		<p class="col-md-12">Julie Andrews said it, I completely endorse it. When you're feeling unhappy , think of nice things. Without further ado , these are a few of my favourite things. </p>
 
-		<ol type="1" class='listing-list col-md-8 col-md-offset-2 col-xs-12 col-xs-offset-0'>
+		<ol type="1" class='listing-list mini col-md-8 col-md-offset-2 col-xs-12 col-xs-offset-0'>
 		 	<li><span class="glyphicon glyphicon-heart mini"></span><span class="list-item-title">1. Fresh bedding</span></li>
 		 	<li><span class="glyphicon glyphicon-heart mini"></span><span class="list-item-title">2. New socks</span></li>
 		 	<li><span class="glyphicon glyphicon-heart mini"></span><span class="list-item-title">3. Finishing a run</span></li>

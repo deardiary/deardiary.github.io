@@ -8,7 +8,7 @@ permalink: /traveleurope/
 		<h3 class="list-heading">European Countries to Travel TO</h3>
 		<p class="col-md-12">I'm not a huge believer in making a list of all the countries in the world and having a huge goal to complete the list. I think it places an emphasis on visiting a distinct number of countries rather than enjoying your travelling and going where you would like to go. As if travelling to two cities in two different countries is somehow more of an alcomplishment than visiting to cities in the same one.</p><p> While there's very few places in the world that I am not interested in visiting, having ability to say that I have visited every country in the world is something I'm hugely interested in making my priority. That being said, here is a complete list of the countries in Europe , seperated into those I have visited and those I hope to visit someday.</p>
 
-		 <ol type="1" class='listing-list col-md-8 col-md-offset-2 col-xs-12 col-xs-offset-0'>
+		 <ol type="1" class='listing-list mini col-md-8 col-md-offset-2 col-xs-12 col-xs-offset-0'>
 		 	<li><span class="glyphicon glyphicon-plane mini"></span><span class="list-item-title out">1. Ireland</span></li>
 		 	<li><span class="glyphicon glyphicon-plane mini"></span><span class="list-item-title out">2. United Kingdom</span></li>
 		 	<li><span class="glyphicon glyphicon-plane mini"></span><span class="list-item-title out">3. Spain</span></li>

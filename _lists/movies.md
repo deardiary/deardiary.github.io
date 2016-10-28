@@ -9,7 +9,7 @@ permalink: /movies/
 		<p class="col-md-12">IMBD have made a list of the 100 greatest movies of all time ranked according to their "success (awards & nominations), their popularity, and their cinematic greatness from a
 		 directing/writing perspective". I thought I'd make a list of the one's that I've already seen with a view to completeing the list along my travels.</p>
 
-		 <ol type="1" class='listing-list col-md-8 col-md-offset-2 col-xs-12 col-xs-offset-0'>
+		 <ol type="1" class='listing-list mini col-md-8 col-md-offset-2 col-xs-12 col-xs-offset-0'>
 		 	<li><span class="glyphicon glyphicon-eye-open"></span><span class="list-item-title">1. The Godfather</span><span class="list-year">1972</span></li>
 		 	<li><span class="glyphicon glyphicon-eye-close"></span><span class="list-item-title out">2. The Shawshank Redemption</span><span class="list-year">1994</span></li>
 		 	<li><span class="glyphicon glyphicon-eye-close"></span><span class="list-item-title out">3. Schlinder's List</span><span class="list-year">1993</span></li>

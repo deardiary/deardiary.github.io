@@ -8,7 +8,7 @@ permalink: /events/
 		<h3 class="list-heading">Event Bucket List</h3>
 		<p class="col-md-12">A non exhaustive lists of the events I would like to attend in the future. </p>
 
-		<ol type="1" class='listing-list col-md-8 col-md-offset-2 col-xs-12 col-xs-offset-0'>
+		<ol type="1" class='listing-list mini col-md-8 col-md-offset-2 col-xs-12 col-xs-offset-0'>
 		 	<li><span class="glyphicon glyphicon-fire mini"></span><span class="list-item-title">1. Monaco Grand Prix</span></li>
 		 	<li><span class="glyphicon glyphicon-fire mini"></span><span class="list-item-title out">2. La Fete Des Lumieres</span></li>
 		 	<li><span class="glyphicon glyphicon-fire mini"></span><span class="list-item-title">3. World Cup Final</span></li>
