@@ -43,15 +43,32 @@ $on-mini:      200px;
 // Font variables
 $font-name: "watermelon";
 $font-path-file-name: {{ baseurl }}/assets/fonts/watermelon/watermelon;
+$font-name-minor: "skinny";
+$font-path-file-name-minor: {{ baseurl }}/assets/fonts/skinny/skinny;
 
 // font_name font
 @font-face {
   font-family: $font-name;
   src: url($font-path-file-name+'.eot'); /* IE9 Compat Modes */
   src: url($font-path-file-name+'.eot?#iefix') format('embedded-opentype'),
-      url($font-path-file-name+'.ttf')  format('truetype'), /* Safari, Android, iOS */
-      url($font-path-file-name+'.svg#font_name') format('svg'); /* Legacy iOS */
+       url($font-path-file-name+'.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url($font-path-file-name+'.svg#watermelon') format('svg'); /* Legacy iOS */
 }
+
+//skinny font
+@font-face {
+  font-family: 'skinny';
+  src: url($font-path-file-name-minor+'.eot');
+  src: url($font-path-file-name-minor+'.woff2') format('woff2'),
+       url($font-path-file-name-minor+'.woff') format('woff'),
+       url($font-path-file-name-minor+'.ttf') format('truetype'),
+       url($font-path-file-name-minor+'.svg#skinny') format('svg'),
+       url($font-path-file-name-minor+'.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "minima";
