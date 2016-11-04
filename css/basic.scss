@@ -33,6 +33,10 @@ ul,li{
 		margin-bottom:75px;
 		font-family: skinny,gotham, helvetica, arial, sans-serif;
 		margin-top:45px;
+		@media screen and (max-width: 599px) {
+			margin-top:0;
+			margin-bottom:0;
+		}
 		img{
 			width:400px;
 			margin-bottom:20px;
