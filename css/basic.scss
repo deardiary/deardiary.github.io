@@ -253,6 +253,11 @@ a.title{
 				text-align: justify;
 			}
 		}
+		.post-meta{
+			@media screen and (max-width: 599px) {
+				text-align: center;
+			}
+		}
 	}
  }
 
@@ -326,7 +331,7 @@ a.title{
 	 		font-family: skinny,gotham, helvetica, arial, sans-serif;
 	 		font-size: 70px;
 	 		@media screen and (max-width: 599px) {
-				font-size:50px;
+				font-size:40px;
 			}
 	 	}
 	 }
@@ -537,6 +542,9 @@ ul.country-stats-container{
 	font-size: 75px;
 	font-family:skinny,gotham, helvetica, arial, sans-serif;
 	margin:80px 0 40px 0;
+	@media screen and (max-width: 599px) {
+		font-size:50px;
+	}
 }
 .explanation-text{
 	font-family: skinny,gotham, helvetica, arial, sans-serif;
