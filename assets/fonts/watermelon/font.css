@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'WatermelonScriptDemo';
+  src: url('WatermelonScriptDemo.woff') format('woff'),
+       url('WatermelonScriptDemo.ttf') format('truetype'),
+       url('WatermelonScriptDemo.svg#WatermelonScriptDemo') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'watermelon';
+  src: url('watermelon.eot');
+  src: url('watermelon.woff2') format('woff2'),
+       url('watermelon.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

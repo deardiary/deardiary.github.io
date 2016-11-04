@@ -51,6 +51,8 @@ $font-path-file-name-minor: {{ baseurl }}/assets/fonts/skinny/skinny;
   font-family: $font-name;
   src: url($font-path-file-name+'.eot'); /* IE9 Compat Modes */
   src: url($font-path-file-name+'.eot?#iefix') format('embedded-opentype'),
+  	   url($font-path-file-name+'.woff2') format('woff2'),
+       url($font-path-file-name+'.woff') format('woff'),
        url($font-path-file-name+'.ttf')  format('truetype'), /* Safari, Android, iOS */
        url($font-path-file-name+'.svg#watermelon') format('svg'); /* Legacy iOS */
 }
