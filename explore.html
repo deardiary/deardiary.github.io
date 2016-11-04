@@ -7,14 +7,14 @@ menu: true
 
 <div class="explore">
 	<div class="explore-title col-xs-12"> <img src="{{site.baseUrl}}/assets/explore.svg" /> </div>
-	<div class="row">
+	<div class="">
 		<ul class="explore-continents col-md-10 col-md-offset-1 col-xs-12 col-xs-offset-0">
 			<li class="col-md-6 col-xs-12"><a href="{{site.baseUrl}}/continents/europe"><img class="explore-thumbnail" src="{{site.baseurl}}/assets/europe.svg"></img></a></li>
 			<li class="col-md-6 col-xs-12"><a href="{{site.baseUrl}}/continents/northamerica"><img class="explore-thumbnail" src="{{site.baseurl}}/assets/northamerica.svg"></a></li>
 		</ul>
 	</div>
 
-	<div class="lastest-posts row">
+	<div class="lastest-posts">
 		<div class="latest col-xs-12">Latest Posts</div>
 		  <ul class="popular-post-list col-md-10 col-md-offset-1 col-xs-12 col-xs-offset-0">
 		    {% for post in site.posts limit:3  %}
@@ -28,7 +28,7 @@ menu: true
 		    {% endfor %}
 		  </ul>
 	</div>
-	<div class="row">
+	<div class="">
 		<p class="popularcol-xs-12"> Popular Posts</p>
 	  <ul class="popular-post-list col-md-10 col-md-offset-1 col-xs-12 col-xs-offset-0">
 	    {% for post in site.posts limit:3 %}
@@ -42,7 +42,7 @@ menu: true
 	    {% endfor %}
 	  </ul>
 	</div>
-		<div class="row">
+		<div class="">
 		   <p class="popular col-md-12 col-xs-12">Top Travel Posts</p>
 			  <ul class="popular-post-list col-md-10 col-md-offset-1 col-xs-12 col-xs-offset-0">
 			    {% for post in site.categories.travel limit:3 %}
