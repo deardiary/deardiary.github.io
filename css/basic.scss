@@ -312,6 +312,9 @@ a.title{
 		margin:0 auto;
 		display: block;
 		margin-top:50px;
+		@media screen and (max-width: 599px) {
+			margin-top:20px;
+		}
 	}
 	 .home-posts{
 	 }
@@ -322,6 +325,9 @@ a.title{
 	 		margin-top: 60px;
 	 		font-family: skinny,gotham, helvetica, arial, sans-serif;
 	 		font-size: 70px;
+	 		@media screen and (max-width: 599px) {
+				font-size:50px;
+			}
 	 	}
 	 }
 	 .home-grid{

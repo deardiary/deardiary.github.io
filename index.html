@@ -25,7 +25,7 @@ layout: default
  	</div>
  	<div class="row">
 		<h3 class="col-md-12 sub-heading home-posts">Most Recent Posts</h3>
-			  <ul class="post-list col-md-8 col-md-offset-2">
+			  <ul class="post-list col-md-8 col-md-offset-2 col-xs-12">
 			    {% for post in site.posts  limit :5%}
 			        <li class='single-post'>
 			            <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a></h2>
