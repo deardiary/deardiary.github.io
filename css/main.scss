@@ -54,7 +54,8 @@ $font-path-file-name-minor: {{ baseurl }}/assets/fonts/skinny/skinny;
   	   url($font-path-file-name+'.woff2') format('woff2'),
        url($font-path-file-name+'.woff') format('woff'),
        url($font-path-file-name+'.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url($font-path-file-name+'.svg#WatermelonScriptDemo') format('svg'); /* Legacy iOS */
+       url($font-path-file-name+'.svg#WatermelonScriptDemo') format('svg'),
+       url('WatermelonScriptDemo.svg#WatermelonScriptDemo') format('svg');; /* Legacy iOS */
 }
 
 //skinny font
