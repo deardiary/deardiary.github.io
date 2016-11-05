@@ -26,7 +26,7 @@ image: france.svg
 		{% for post in site.categories.france limit:10 %}
 			<li class='single-post'>
 			    <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a></h2>
-				<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+				<span class="post-meta col-xs-12">{{ post.date | date: "%b %-d, %Y" }}</span>
 				<span class="post-excerpt">{{ post.excerpt }} </span><a class="post-end-link" href="{{ post.url | prepend: site.baseurl }}"> Read on...</a>
 			 </li>
 		{% endfor %}
