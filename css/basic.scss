@@ -151,6 +151,9 @@ ul,li{
 }
 .title-icon{
 	width:50px;
+	@media screen and (max-width: 599px) {
+		margin-top:10px;
+	}
 }
 a.site-title{
 	font-family: watermelon;
