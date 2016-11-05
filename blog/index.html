@@ -3,16 +3,17 @@ layout: page
 title: Blog
 --- 
 	<h1 class="blog-list-title">Articles</h1>
-      <ul class="post-list col-md-8 col-md-offset-2 col-xs-12 col-xs-offset-0">
+    <div class="row">
+      <ul class="post-list col-md-8 col-md-offset-2">
         {% for post in paginator.posts %}
-          <li class='single-post'>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-            <span class="post-meta col-xs-12">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <span class="post-excerpt">{{ post.excerpt }} </span>
-            <a class="post-end-link" href="{{ post.url | prepend: site.baseurl }}"> Read on...</a>
+          <li class='single-post col-xs-12'>
+            <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a></h2>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <span class="post-excerpt">{{ post.excerpt }} </span><a class="post-end-link" href="{{ post.url | prepend: site.baseurl }}"> Read on...</a>
           </li>
         {% endfor %}
       </ul>
+    </div>
 
 
 <!-- Pagination links -->
