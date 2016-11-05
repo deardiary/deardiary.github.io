@@ -11,7 +11,7 @@ image: england.svg
 	</div>
 </div>
 
-<div class="row">
+<div class="">
 	<ul class="country-stats-container">
 		<li class=""><img class="" src="{{site.baseurl}}/assets/countries/englandpop.svg"/></li>
 		<li class=""><img class="" src="{{site.baseurl}}/assets/countries/englandcap.svg"/></li>
