@@ -362,6 +362,7 @@ a{
 	 	.first-row{
 	 		@media screen and (max-width: 799px) {
 	 			/*margin-top:30px;*/
+	 			margin-bottom: 30px;
 	 		}
 	 	}
 	 }
@@ -381,13 +382,19 @@ a{
  }
  .na-header,
 .europe-header{
+	@media screen and (max-width: 799px) {
+			font-size:45px;
 
+	}
 	margin: 30px auto 60px auto;
 	width:80%;
 	a.back-explore.glyphicon.glyphicon-chevron-left{
 		float:left;
 		margin-top:10px;
 		font-size:40px;
+		@media screen and (max-width: 799px) {
+			font-size:25px;
+		}
 	}
 	.back-explore{
 		padding:0px;
@@ -397,11 +404,19 @@ a{
 		margin:0 auto;
 		font-size:75px;
 		font-family: watermelon;
+		@media screen and (max-width: 799px) {
+			font-size:45px;
+		}
 	}
 	.na-title{
 		font-size:60px;
 		width:450px;
 	}
+}
+.europe-top{
+	@media screen and (max-width: 799px) {
+			display:none;
+		}
 }
 
  /*  Footer  */
