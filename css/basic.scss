@@ -85,6 +85,9 @@ ul,li{
  	font-size: 35px;
  	text-decoration: none;
  	color:black;
+ 	@media screen and (max-width: 599px) {
+ 		font-size:25px;
+ 	}
  }
 .site-nav{
 	float:right;
@@ -460,6 +463,11 @@ ul.country-stats-container{
 		@media screen and (max-width: 755px) {
 			width:100%;
 			margin-top:15px;
+		}
+		img{
+			@media screen and (max-width: 599px) {
+				max-width:150px;
+			}
 		}
 	}
 }

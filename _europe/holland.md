@@ -12,7 +12,7 @@ image: holland.svg
 	</div>
 </div>
 
-<div class="row">
+<div class="">
 	<ul class="country-stats-container">
 		<li class=""><img class="" src="{{site.baseurl}}/assets/countries/hollandpop.svg"/></li>
 		<li class=""><img class="" src="{{site.baseurl}}/assets/countries/hollandcap.svg"/></li>

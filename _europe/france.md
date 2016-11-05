@@ -14,7 +14,7 @@ image: france.svg
 
 
 
-<div class="row">
+<div class="">
 	
 	<ul class="country-stats-container">
 		<li class=""><img class="" src="{{site.baseurl}}/assets/countries/francepop.svg"/></li>
