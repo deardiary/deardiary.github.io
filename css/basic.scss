@@ -93,9 +93,9 @@ ul,li{
 	float:right;
 	padding:0px 0;
 	margin-top:1px;
-	border:1px solid #7c7b7b;
 
 	@media screen and (max-width: 599px) {
+		border:1px solid #7c7b7b;
         position: absolute;
         top: 9px;
         right: 30px;
