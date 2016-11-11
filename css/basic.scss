@@ -345,6 +345,8 @@ a{
 		margin-top:50px;
 		@media screen and (max-width: 599px) {
 			margin-top:20px;
+			padding-left:10px;
+			padding-right:10px;
 		}
 	}
 	 .home-posts{
@@ -361,10 +363,21 @@ a{
 			}
 	 	}
 	 }
+	 .sub-heading{
+	 		@media screen and (max-width: 599px) {
+	 			margin-top:20px;
+	 			margin-bottom:20px;
+	 		}
+	 	}
+
 	 .home-grid{
+	 	overflow: auto;
 		.second-row{
 			margin-top:30px;
 			width:100%;
+			@media screen and (max-width: 599px) {
+				display: none;
+			}
 	 	}
 	 	.first-row{
 	 		@media screen and (max-width: 799px) {
