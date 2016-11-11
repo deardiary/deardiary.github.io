@@ -331,6 +331,8 @@ a{
 		}
 		@media screen and (max-width: 599px) {
 			margin-left:0;
+			position: absolute;
+			right:15px;
 		}
 	}
 }
