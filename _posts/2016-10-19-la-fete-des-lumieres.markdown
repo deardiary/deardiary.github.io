@@ -3,7 +3,7 @@ layout: post
 title:  "Lights, overcrowding and a lot of clothes"
 date:   2016-10-19 09:54:21
 tags: travel
-categories: lyon france europe festival travel europe erasmus 
+categories: lyon france europe festival travel europe erasmus popular
 comments: false
 thumbnail: fete.jpg
 ---

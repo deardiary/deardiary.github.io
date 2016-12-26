@@ -3,9 +3,9 @@ layout: post
 title:  "Searching for Beer"
 date:   2016-11-5 23:57:59
 tags: travel
-categories: travel morocco taghazout drink beer africa
+categories: travel morocco taghazout drink beer africa popular
 comments: true
-thumbnail: javea.jpg
+thumbnail: agadir.png
 ---
 
 I have an american friend. She’s here with me in Morocco. The 2016 American presidential election is next Tuesday. Given the events that have preceded Tuesday night we both felt alcohol would make the night's viewing more enjoyable. But Morocco is a Muslim country and Taghazout doesn’t sell alcohol. So we set out to find some.
