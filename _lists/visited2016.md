@@ -28,6 +28,7 @@ permalink: /visited2016/
 		 	<li><span class="glyphicon glyphicon-plane mini"></span><span class="list-item-title">17. Tangier</span><span class="list-year">Morocco</span></li>
 		 	<li><span class="glyphicon glyphicon-plane mini"></span><span class="list-item-title">18. Frankfurt</span><span class="list-year">Germany</span></li>
 		 	<li><span class="glyphicon glyphicon-plane mini"></span><span class="list-item-title">19. Berlin</span><span class="list-year">Germany</span></li>
+		 	<li><span class="glyphicon glyphicon-plane mini"></span><span class="list-item-title">20. London</span><span class="list-year">England</span></li>
 		 </ol>
 	</div>
 </div>
