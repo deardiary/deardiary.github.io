@@ -335,6 +335,21 @@ a{
 			right:15px;
 		}
 	}
+	img.post-image{
+		margin:40px auto 10px auto;
+		max-width:650px;
+		display: block;
+		@media screen and (max-width: 599px) {
+			max-width: 100%
+		}
+	}
+	.tagline{
+		font-size: 14px;
+		text-align: center;
+		font-family: sans-serif;
+		width:100%;
+		display: block;
+	}
 }
 
 
@@ -610,6 +625,14 @@ ul.country-stats-container{
 		font-size:50px;
 	}
 }
+h3.post-sub-heading,
+h4.post-sub-heading,
+p.post-sub-heading{
+	color: #b21c0e;
+	font-size: 35px;
+	font-family: skinny;
+}
+
 .explanation-text{
 	font-family: skinny,gotham, helvetica, arial, sans-serif;
 	font-size: 80px;
