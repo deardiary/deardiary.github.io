@@ -1,0 +1,52 @@
+---
+layout: page
+title: Africa
+permalink: /continents/africa/
+menu: false
+---
+
+<div class="europe-header">
+	<a class="back-explore glyphicon glyphicon-chevron-left" href="/explore"></a>
+	<h4>Africa </h4>
+</div>
+
+<ul class="continent-country">
+	{% for country in site.africa limit:10 %}
+      <li class="country-list col-md-4 col-xs-12">
+      	<a href="{{site.baseurl}}/{{country.title}}"class=""><img class="explore-thumbnail" id="{{country.title}}" src="{{site.baseurl}}/assets/{{country.image}}"></img></a>
+      </li>
+{% endfor %}
+
+</ul>
+
+	<div class="row">
+		<div class="col-md-6 col-xs-12">
+		<h3 class="sub-heading">Top Posts in Europe </h3>
+			  <ul class="post-list col-md-10 col-md-offset-1">
+			    {% for post in site.categories.topafrica limit:3 %}
+			        <li class='single-post'>
+			            <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a></h2>
+
+			            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+			            <span class="post-excerpt">{{ post.excerpt }} </span><a class="post-end-link" href="{{ post.url | prepend: site.baseurl }}"> Read on...</a>
+			        </li>
+
+			    {% endfor %}
+			  </ul>
+			</div>
+
+		<div class="col-md-6 col-xs-12">
+		<h3 class="sub-heading">Most Recent</h3>
+			  <ul class="post-list col-md-10 col-md-offset-1">
+			    {% for post in site.categories.africa limit:3 %}
+			        <li class='single-post'>
+			            <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a></h2>
+
+			            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+			            <span class="post-excerpt">{{ post.excerpt }} </span><a class="post-end-link" href="{{ post.url | prepend: site.baseurl }}"> Read on...</a>
+			        </li>
+
+			    {% endfor %}
+			  </ul>
+			</div>
+	</div>

@@ -2,7 +2,7 @@
 layout: post
 title:  "Getting Around Morocco"
 date:   2016-12-05 11:27:49
-categories: travel morocco africa
+categories: travel morocco africa topafrica
 thumbnail: morocco-thumb.jpg
 comments: true
 ---
