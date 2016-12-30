@@ -17,31 +17,20 @@ My most vivid memory is of the cold. I was wearing about half of my meagre stude
 
 After we had all met up, we had dinner in Vieux Lyon. Lyon is known for its good food and in all the time I lived there I never had a bad meal in one of it's famous bouchons. We had reserved a table but had to wait in line outside for over an hour anyway. The food was delicious , as always, worth the wait. Afterwards we roamed the streets for hours taking in all the light installments.  There were parades and movie shorts, food stalls and a ferris wheel with a movie short projected onto it. We ate waffles made with the biggest jar of Nutella I have ever seen in the street as we watched the animations. My favourite installment was a cartoon short projected onto the buildings of Place des Terreaux in the center of Lyon based on the famous book Le Petit Prince who's author hails from Lyon.
 
-
-<div class="image-gallery row">
-	<div class="col-md-12">
-		<div class="col-md-5">
-			<img class=" col-md-12 gallery-1" src="{{baseurl}}/assets/fete1.jpg"/>
-			<img class=" col-md-12 gallery-2" src="{{baseurl}}/assets/fete3.jpg"/>
-			<img class=" col-md-12 gallery-5" src="{{baseurl}}/assets/fete6.jpg"/>
-		</div>
-		<div class="col-md-7">
-			<img class="gallery-3" alt="float in the parade" src="{{baseurl}}/assets/fete2.jpg"/>
-			<img class="gallery-4" src="{{baseurl}}/assets/fete4.jpg"/>
-		</div>
-	</div>
-	<div class="col-md-12">
-		<div class="col-md-7">
-			<img class=" col-md-12 gallery-1" src="{{baseurl}}/assets/fete1.jpg"/>
-			<img class=" col-md-12 gallery-2" src="{{baseurl}}/assets/fete3.jpg"/>
-		</div>
-		<div class="col-md-5">
-			<img class="col-md-12 gallery-3" src="{{baseurl}}/assets/fete2.jpg"/>
-			<img class="col-md-12 col-md-12 gallery-4" src="{{baseurl}}/assets/fete4.jpg"/>
-			<img class="col-md-12 gallery-5" src="{{baseurl}}/assets/fete6.jpg"/>
-		</div>
-	</div>
+<div class='image-block'>
+	<img class="col-md-8 col-xs-12" src="{{baseurl}}/assets/fete1.jpg"/>
+	<p class='image-description col-xs-12 col-md-4'><span class='description-title'> Light Installations</span>Overhanging light installation located at Place de Jacobins in the center of Lyon.</p>
 </div>
+<div class='image-block'>
+	<div class='col-md-4 col-xs-12 col-md-left'><span class='description-container'><p class='image-description'><span class='description-title'> Animal Parade </span>The biggest (and most colourful) participant in the main parade also taking place in the presqu'ile in the centre of Lyon</p></span>
+	</div>
+	<img class="col-md-8 col-xs-12" src="{{baseurl}}/assets/fete2.jpg"/>
+</div>
+<div class='image-block'>
+	<img class="col-md-8 col-xs-12" src="{{baseurl}}/assets/fete3.jpg"/>
+	<p class='image-description col-xs-12 col-md-4'><span class='description-title'> Other Attractions</span>A less traditional display involving an artifically lighted garden created from neon lights, located on the descent from the Croix-Ruisse area of Lyon.</p>
+</div>
+
 Before moving to Lyon, the festival was completely unbeknownst to me and I was completely overwhelmed by the number of people that attended over the three day's it took place. I had never in my life seen so many people in one relatively small space.  Lyon has a small city centre as it's located at the joining of two rivers. The city had closed off all roads in and out of this area (called the Presqu'ile) for the festival and the entire area was jammed with people. It resembled a sports stadium immediately after a major event. 
 
 The city had also opened the public transportation system for parts of the event , meaning it was free for everyone to use. (Which was great but created it's own problems.) As we headed home that night we squeezed into a majorly overcrowded tram. We sat stationary for almost ten minutes before security had to forcibly remove people. The tram was to heavy to move. When it finally did start moving it moved slowly , screeching along the ground as it grinded against it's rails.
